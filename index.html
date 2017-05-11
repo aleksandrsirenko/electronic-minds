@@ -1,40 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
-      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/index.css">
 
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row mg0">
+      <div class="col-xs-12 col-sm-1 navpad">
+        <div class="icon-bar" id="myTopnav">
+          <a href="#"><img src="img/icon_1.png" class="size"></a>
+          <a href="#"><img src="img/icon_2.png" class="size"></a>
+          <a href="#"><img src="img/icon_3.png" class="size"></a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-11 mainpad">
+        <div class="row" id="headerwrap">
+          <div class="col-sm-7 col-sm-offset-5" id="mg-top">
+            <span id="span1">ELECTRONIC MINDS</span><span id="span2">AT VERO EOS ET ACCUSAMUS ET IUSTO ODIO DIGNISSMOS DUCIMUS</span>
+            <p id="paragraph1">At vero eos et accusamus et iusto</p>
+            <p id="paragraph2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </p>
+            <button type="button" id="btn1">SED UT PERSCIPIO</button>
+          </div>
+        </div>
+        <div class="row centered" id="contentwrap">
+          <div class="col-xs-12 col-sm-10 col-sm-offset-1" id="paragraph3">
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </p>
+          </div>
+          <div class="col-xs-6 col-sm-2 col-sm-offset-2 format">
+            <img src="img/managment.png" class="content-icon">
+            <h3>Managment</h2>
+            <p>Strategy and technology</p>
+          </div>
+          <div class="col-xs-6 col-sm-2 format">
+            <img src="img/concept.png" class="content-icon">
+            <h3>Concept</h2>
+            <p>Steel, glas and metal</p>
+          </div>
+          <div class="col-xs-6 col-sm-2 format">
+            <img src="img/design.png" class="content-icon">
+            <h3>Design</h2>
+            <p>UI & UX</p>
+          </div>
+          <div class="col-xs-6 col-sm-2 format">
+            <img src="img/deployment.png" class="content-icon">
+            <h3>Deployment</h2>
+            <p>Configuration and maintenance</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2" id="line"></div>
+        </div>
+        <div class="row foo">
+          <div class="col-xs-12 col-sm-2 col-sm-offset-2">
+            <p>COMPANY NAME</p>
+          </div>
+          <div class=" col-xs-12 col-sm-2 col-sm-offset-0">
+            <p>company@gmail.com</p>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-sm-offset-0">
+            <p>Wall street 80, 64293 NY</p>
+          </div>
+          <div class="col-xs-6 col-xs-offset-6 col-sm-4 col-sm-offset-0">
+            <button type="button">WHAT IS IT ALL FOR?</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 
 
-<div class="icon-bar" id="myTopnav">
-  <a href="#"><img src="img/icon_1.png" class="size"></a> 
-  <a href="#"><img src="img/icon_2.png" class="size"></a> 
-  <a href="#"><img src="img/icon_3.png" class="size"></a> 
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "icon-bar") {
-            x.className += " responsive";
-        } else {
-            x.className = "icon-bar";
-        }
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "icon-bar") {
+        x.className += " responsive";
       }
-    </script>
-  </body>
+      else {
+        x.className = "icon-bar";
+      }
+    }
+  </script>
+</body>
+
 </html>
